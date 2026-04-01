@@ -1,1 +1,1 @@
-# meu-primeiro-projeto
+estudo-ia-gemini

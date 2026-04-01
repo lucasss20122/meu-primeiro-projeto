@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas Digital - Lucas</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f3f4f6;
+            --text-color: #1f2937;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            width: 90%;
+            max-width: 350px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px 0;
+            font-size: 1.5rem;
+            color: var(--text-color);
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            color: #4b5563;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .btn-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e1306c; /* Cor padrão Instagram */
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn-link:hover {
+            transform: translateY(-2px);
+            background-color: #c13584;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocI1GebtrJSRrrklxmSl84Dqy_Kf3-f96hP_-CDFfwDsB4_zKjQhlA=s350-c-no" alt="Foto de Lucas" class="profile-img">
+
+        <h1>Lucas</h1>
+
+        <p class="bio">
+            Analista de Controle Interno e entusiasta de tecnologia. Atualmente mergulhado nos <strong>estudos de Inteligência Artificial</strong> através do Gemini, explorando como a IA pode transformar processos e produtividade.
+        </p>
+
+        <a href="https://www.instagram.com/_lucas_nunes2015" target="_blank" class="btn-link">
+            Siga-me no Instagram
+        </a>
+
+        <div class="footer">
+            © 2026 | Buritis, MG
+        </div>
+    </div>
+
+</body>
+</html>
